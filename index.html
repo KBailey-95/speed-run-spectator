@@ -8,12 +8,16 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="speedrun.css" />
+    
     <title>Speedrun Spectator</title>
   </head>
 
   <body>
-     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Speedrun Spectator</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,14 +29,16 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#favorites">My Favorites</a>
+          <a class="nav-link" href="#favorites"> <i class="bi bi-heart-fill"></i> My Favorites
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#search-results">Search Results</a>
+          <a class="nav-link" href="#search-results"><i class="bi bi-search"></i>  Search Results</a>
       </ul>
     </div>
   </div>
-</nav>    <header class="jumbotron">
+</nav>
+    <header class="jumbotron">
       <h1>The Speedrun Spectator</h1>  
       <div class = 'subhead-text'> The only page fast enough to track your favorite runners </div>  
     </header>
